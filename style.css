@@ -1,0 +1,206 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height : 100%;
+    width : 100%;
+}
+
+.container {
+    height : 138vh;
+    width : 100%;
+    background-color: #F0F2F5;
+    display : flex;
+    position : relative;
+}
+
+.leftside {
+    width : 55%;
+    display : flex;
+    flex-direction: column;
+}
+
+.leftside img {
+    width : 261px;
+    margin-top : 34vh;
+    margin-left : 18vh;
+}
+
+.leftside p {
+    margin-left : 23vh;
+    width : 440px;
+    font-size : 25px;
+    font-family: Helvetica;
+}
+
+.rightside {
+    width : 45%;
+}
+
+.loginBox {
+    margin-left : 6vh;
+    margin-top : 25vh;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px #0002;
+    height : 66vh;
+    width : 76vh;
+    background-color: white;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginBox input {
+    font-size : 16px;
+    color : #dadada;
+    padding-left : 14px;
+    margin-bottom : 10px;
+    height : 10vh;
+    width : 90%;
+    border-radius: 6px;
+    border : 1px solid #dadada;
+}
+
+.loginBox .loginButton {
+    font-size: 18px;
+    font-weight: 700;
+    height : 9vh;
+    width : 90%;
+    color : #fff;
+    border-radius: 6px;
+    border : 1px solid transparent;
+    background-color: #1877f2;
+}
+
+.loginBox .box {
+    height : 10vh;
+    width : 90%;
+    border-bottom : 1px solid #ddd;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loginBox .box a {
+    text-decoration: none;
+    color : #1877f2;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+.loginBox .box a:hover {
+    text-decoration: underline;
+}
+
+.loginBox .newAccount {
+    margin-top : 6vh;
+    height : 9vh;
+    width : 48%;
+    border-radius: 6px;
+    border : 1px solid transparent;
+    background-color: #42b72a;
+    color : #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.rightside p {
+    font-family: Helvetica;
+    margin-left : 17vh;
+    margin-top : 5vh;
+    font-size : 12px;
+}
+
+.rightside p a {
+    color : #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rightside p a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    height : 34vh;
+    width : 100%;
+    display : flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    width : 80%;
+    font-family: Helvetica;
+}
+
+.footerContainer a {
+    text-decoration: none;
+    color : #999;
+}
+
+.footerContainer a:hover {
+    text-decoration: underline;
+}
+
+.footer-first-line {
+    height : 8vh;
+    margin-top : 3vh;
+    font-size: 11px;
+    display : flex;
+    align-items: center;
+    gap : 10px;
+    border-bottom : 1px solid #ddd;
+}
+
+.footer-first-line a:nth-child(1){
+    color : #777;
+}
+
+.footer-first-line button {
+    width : 28px;
+    height : 18px;
+    border-radius: 2px;
+    border : 1px solid #ddd;
+    background-color: #eee;
+}
+
+.footer-first-line button:hover {
+    cursor : pointer;
+}
+
+.footer-first-line button i {
+    font-size: 12px;
+    color : #777;
+}
+
+.footer-second-line {
+    height : 12vh;
+    margin-bottom : 4vh;
+    flex-wrap : wrap;
+    margin-top : 2vh;
+    font-size: 11px;
+
+}
+
+.footer-second-line a {
+    line-height: 17px;
+    margin-right : 12px;
+}
+
+.footer-third-line {
+    font-size : 10px;
+}
+
+.footer-third-line a {
+    color : #777;
+}
+
+.footer-third-line a:hover {
+    cursor: default;
+    text-decoration: none;
+}
