@@ -1,3 +1,8 @@
 ## Facebook Login Page Clone 
 
-Basic structure of facbook login page using HTML and CSS.
+The basic structure of the Facebook login page using **HTML** and **CSS**.
+
+<br>
+
+**Preview**
+![Preview](https://github.com/Ninja-Vikash/Assets/blob/main/Facebook%20Login%20Assets/facebook.png)
